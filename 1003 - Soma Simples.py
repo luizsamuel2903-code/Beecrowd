@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+
+A, B = int(input()), int(input())
+SOMA = A + B
+
+print('SOMA =', SOMA)
