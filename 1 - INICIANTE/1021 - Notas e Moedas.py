@@ -16,7 +16,7 @@ for moeda in moedas:
     quantidade, valor = divmod(valor, round(moeda * 100))
     print(f"{quantidade} moeda(s) de R$ {moeda:.2f}")
 
-""" 
+"""
 valor = float(input())
 
 notas_100, resto = divmod(valor, 100)
