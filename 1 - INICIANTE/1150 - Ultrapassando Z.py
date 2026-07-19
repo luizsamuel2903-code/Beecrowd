@@ -11,4 +11,4 @@ for i in range(x, z):
     if sum(a) >= z: break
 print(len(a))
 
-
+# 00 : 09 : 03, 24
