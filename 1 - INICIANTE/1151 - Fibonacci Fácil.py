@@ -2,8 +2,10 @@
 
 n = int(input())
 
-soma = 0
+termo_1, termo_2 = 0, 1
 
 for i in range(n):
-    print(soma)
-    soma += i
+    print(termo_1)
+    soma_termos = termo_1 + termo_2
+    termo_1 = termo_2
+    termo_2 = soma_termos
