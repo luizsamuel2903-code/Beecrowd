@@ -7,3 +7,5 @@ while True:
         if i != x: print(i, end=' ')
         else: print(i, end='')
     print()
+
+# 00 : 03 : 59, 65
