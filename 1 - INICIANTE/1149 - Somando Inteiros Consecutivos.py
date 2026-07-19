@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 
-a, n = map(int, input().split())
+valores = list(map(int, input().split()))
+a = valores[0]
 
-while n <= 0:
-    n = int(input())
+index = 1
+while valores[index] <= 0:
+    index += 1
+
+n = valores[index]
 
 soma = 0
-for i in range(n):
+for i in range(0, n):
     soma += a + i
 print(soma)
