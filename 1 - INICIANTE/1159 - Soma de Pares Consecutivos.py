@@ -10,3 +10,5 @@ while True:
     for i in range(x, x + 10, 2):
         s += i
     print(s)
+
+# 00 : 11 : 04, 50
