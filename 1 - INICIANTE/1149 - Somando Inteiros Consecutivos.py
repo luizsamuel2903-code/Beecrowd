@@ -3,6 +3,6 @@
 a, n = map(int, input().split())
 
 soma = 0
-for i in range(0, n):
+for i in range(n):
     soma += i
 print(soma)
