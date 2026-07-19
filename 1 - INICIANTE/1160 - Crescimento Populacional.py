@@ -2,8 +2,8 @@
 
 for _ in range(int(input())):
     pa, pb, g1, g2 = input().split()
-    pa, pb = map(int, [pa, pb])
-    g1, g2 = map(float, [g1, g2])
+    pa, pb = int(pa), int(pb)
+    g1, g2 = float(g1), float(g2)
     
     anos = 0
     while pa <= pb and anos <= 100:
