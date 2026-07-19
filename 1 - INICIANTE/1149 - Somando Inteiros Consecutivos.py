@@ -2,6 +2,10 @@
 
 a, n = map(int, input().split())
 
-for i in range(0, n-1):
-    a += i
-print(a)
+while n <= 0:
+    n = int(input())
+
+soma = 0
+for i in range(n):
+    soma += a + i
+print(soma)
