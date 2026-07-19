@@ -7,3 +7,5 @@ while True:
     else: idades.append(idade)
 media = sum(idades) / len(idades)
 print(f'{media:.2f}')
+
+# 00 : 08 : 12, 31
