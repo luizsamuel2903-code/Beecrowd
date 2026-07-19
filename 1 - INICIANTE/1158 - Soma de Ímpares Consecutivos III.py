@@ -9,4 +9,5 @@ for _ in range(int(input())):
         soma += x
         x += 2
     print(soma)
-    
+
+# 00 : 13 : 33, 57
