@@ -6,4 +6,4 @@ while True:
     if idade < 0: break
     else: idades.append(idade)
 media = sum(idades) / len(idades)
-print(round(media, 2))
+print(f'{media:.2f}')
