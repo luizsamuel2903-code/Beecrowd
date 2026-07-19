@@ -2,7 +2,8 @@
 
 idades = []
 while True:
-    idade = int(input())
+    idade = float(input())
     if idade < 0: break
     else: idades.append(idade)
-print(sum(idades) / len(idades))
+media = sum(idades) / len(idades)
+print(round(media, 2))
