@@ -2,5 +2,9 @@
 
 while True:
     x = int(input())
-    for i in range(x, x*5, 2):
-        print(i)
+    if x % 2 != 0: x += 2
+    
+    s = 0
+    for i in range(x, x + 10, 2):
+        s += x
+    print(s)
