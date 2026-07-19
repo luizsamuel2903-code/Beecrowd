@@ -2,6 +2,7 @@
 
 for _ in range(int(input())):
     pa, pb, g1, g2 = input().split()
+    
     pa, pb = int(pa), int(pb)
     g1, g2 = float(g1), float(g2)
     
@@ -10,5 +11,8 @@ for _ in range(int(input())):
         pa += int(pa*(g1/100))
         pb += int(pb*(g2/100))
         anos += 1
-    if anos > 100: print('Mais de 1 seculo')
+    
+    if anos > 100: print('Mais de 1 seculo.')
     else: print(f'{anos} anos.')
+
+# 00 : 18 : 43, 62
