@@ -15,4 +15,4 @@ for i in range(0, n):
 print(soma)
 
 
-# 18
+# 00 : 18 : 49, 53
