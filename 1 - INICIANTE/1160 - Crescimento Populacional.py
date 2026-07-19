@@ -7,6 +7,7 @@ for _ in range(int(input())):
     
     anos = 0
     while pa <= pb:
-        pa *= g1
-        pb *= g2
+        pa = int(pa*g1)
+        pb = int(pb*g2)
         anos += 1
+    print(anos)
