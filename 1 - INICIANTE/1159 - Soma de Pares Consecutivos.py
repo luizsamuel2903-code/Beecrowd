@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
 while True:
-    x = a = int(input())
+    x = int(input())
     for i in range(x, x*5, 2):
         print(i)
