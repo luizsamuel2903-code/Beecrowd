@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 
 for i in range(int(input())):
-    soma = 0
     x, y = map(int, input().split())
-    if x % 2 == 0: x+1 
+    if x % 2 == 0: x += 1 
 
-    print(x)
+    soma = x
+    for i in range(y):
+        x += 2
+        soma += x
+    print(soma)
