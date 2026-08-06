@@ -2,10 +2,10 @@
 
 c, a, e = input(), 0, 0
 
-for linha in range(12):
-    for coluna in range(12):
+for i in range(12):
+    for j in range(12):
         v = float(input())
-        if coluna < linha and coluna < 11 - linha:
+        if j<i and j<11-i:
             a += v
             e += 1
 
